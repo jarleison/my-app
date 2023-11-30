@@ -2,18 +2,13 @@
 import React from 'react';
 import './Cards.css';
 
-const Cards = () => {
+const Cards = ({ show }) => {
   return (
-    <div className="cards-container">
+    <div className={`cards-container ${show ? '' : 'hidden'}`}>
       <div className="card">
-        <img src="../../img/imagen1.jpg" alt="Imagen 1" />
+        <img src="/img/imagen1.jpg" alt="Imagen 1" />
       </div>
-      <div className="card">
-        <img src="../../img/imagen2.jpg" alt="Imagen 2" />
-      </div>
-      <div className="card">
-        <img src="../../img/imagen3.jpg" alt="Imagen 3" />
-      </div>
+      {/* Otras tarjetas aquí */}
     </div>
   );
 };

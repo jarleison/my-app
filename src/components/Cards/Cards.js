@@ -6,13 +6,13 @@ const Cards = () => {
   return (
     <div className="cards-container">
       <div className="card">
-        <img src="img/imagen1.jpg" alt="Imagen 1" />
+        <img src="../../img/imagen1.jpg" alt="Imagen 1" />
       </div>
       <div className="card">
-        <img src="img/imagen2.jpg" alt="Imagen 2" />
+        <img src="../../img/imagen2.jpg" alt="Imagen 2" />
       </div>
       <div className="card">
-        <img src="img/imagen3.jpg" alt="Imagen 3" />
+        <img src="../../img/imagen3.jpg" alt="Imagen 3" />
       </div>
     </div>
   );

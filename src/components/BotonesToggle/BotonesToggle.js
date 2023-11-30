@@ -1,24 +1,27 @@
 // BotonesToggle.js
-import React from 'react';
+import React, { useState } from 'react';
 import './BotonesToggle.css';
 
 const BotonesToggle = () => {
+  const [isHidden, setIsHidden] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
   const handleToggle = () => {
-    const cardsContainer = document.querySelector(".cards-container");
-    cardsContainer.classList.toggle("hidden");
+    setIsHidden(!isHidden);
   };
 
   const handleDarkMode = () => {
-    const body = document.body;
-    body.classList.toggle("dark-mode");
+    setIsDarkMode(!isDarkMode);
   };
 
   const handleOpenYouTube = () => {
     window.open("https://www.youtube.com", "_blank");
   };
 
+  const tgBtnClass = isDarkMode ? "dark-mode" : "";
+
   return (
-    <div className="tgBtn">
+    <div className={`tgBtn ${tgBtnClass}`}>
       <div className="divBtn">
         <button className="toggleB" id="toggleButton" onClick={handleToggle}>
           Mostrar/Ocultar Imagenes

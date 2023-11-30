@@ -1,0 +1,35 @@
+/* Estilos para Navbar.css */
+.navbar {
+    background-color: #574b42; /* Cambia el color de fondo según tus preferencias */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    color: #f8e8d5; /* Cambia el color del texto según tus preferencias */
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #f8e8d5; /* Cambia el color del texto según tus preferencias */
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .nav-links a:hover {
+    color: #d291bc; /* Cambia el color del texto al pasar el ratón sobre el enlace */
+  }
+  

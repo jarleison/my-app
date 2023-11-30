@@ -1,0 +1,39 @@
+/* Estilos para Productos.css y FormularioContacto.css */
+/* Puedes personalizar estos estilos según el diseño deseado */
+.productos {
+    margin-top: 20px;
+  }
+  
+  .formulario-contacto {
+    margin-top: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input,
+  textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    background-color: #574b42;
+    color: #f8e8d5;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d291bc;
+  }
+  
